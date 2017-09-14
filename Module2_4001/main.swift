@@ -18,7 +18,7 @@ var distance :Double=129.763001
 var lost: Bool=true
 var expensive :Bool=true
 var choice:Int=2
-//let integral: Character = "⧵u{222B}"
+let integral: Character = "\u{22B}"
 let greeting: String="Hello"
 var name: String="Karen"
 
@@ -59,7 +59,7 @@ case 3 : print("You chose 3.")
 default: print("You made an unknown choice.")
 }
 
-//print("\(integral) is an integral.")
+print("\(integral) is an integral.")
 
 for i in 5 ... 10{
     print("i = \(i)")
